@@ -1,31 +1,17 @@
-# jekyll
-.jekyll-metadata
+# hidden files
+.*
+
+# python compiled files
+*.pyc
+
+# jekyll debug
 _site
-.sass-cache
-.jekyll-cache
 
-
-# bundler
-*.gem
+# Jeykll Gemfile.lock
 Gemfile.lock
 
+# yui-compressor
+*.jar
 
-# python
-*.whl
-
-
-# npm
-node_modules
-package-lock.json
-
-
-# _sass
-_sass/@primer/css/**/*.md
-
-
-# lighthouse
-*.report.html
-
-
-# action
-action.changelog.md
+# bundle cache
+vendor
